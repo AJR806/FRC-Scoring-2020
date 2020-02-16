@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <UseSimulator>false</UseSimulator>
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Source>E:\StoreLogo.scale-400.png</Source>
+    <SmallTileSource>E:\StoreLogo.scale-400.png</SmallTileSource>
+    <MediumTileSource>E:\StoreLogo.scale-400.png</MediumTileSource>
+    <WideTileSource>E:\StoreLogo.scale-400.png</WideTileSource>
+    <LargeTileSource>E:\StoreLogo.scale-400.png</LargeTileSource>
+    <AppIconSource>E:\StoreLogo.scale-400.png</AppIconSource>
+    <SplashScreenSource>E:\StoreLogo.scale-400.png</SplashScreenSource>
+    <PackageLogoSource>E:\StoreLogo.scale-400.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Projects\FRC Scoring 2019\FRC Scoring 2019\FRC Scoring 2019.csproj;x64

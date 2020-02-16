@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="FRC_Scoring_2019.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FRC_Scoring_2019"
+	xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<StackPanel>
+			<local:ExpandPanel FontSize="36">
+				<local:ExpandPanel.HeaderContent>
+					<TextBlock VerticalAlignment="Center" Text="Header"/>
+				</local:ExpandPanel.HeaderContent>
+			</local:ExpandPanel>
+			<controls:Expander IsExpanded="True" HorizontalContentAlignment="Stretch">
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+					<Button HorizontalAlignment="Center">Hi</Button>
+					<Button Grid.Column="1">Hi</Button>
+				</Grid>
+			</controls:Expander>
+		</StackPanel>
+	</Grid>
+</Page>
+
